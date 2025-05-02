@@ -1,0 +1,18 @@
+{
+  "name": "demopaljulio",
+  "version": "1.0.0",
+  "description": "demo package",
+  "main": "app.js",
+  "engines": {
+    "node": "22.14.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "zalapeach@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "3.0.3"
+  }
+}
