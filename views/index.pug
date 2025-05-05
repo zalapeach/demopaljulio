@@ -33,13 +33,18 @@ html.fontawesome-i2svg-active.fontawesome-i2svg-complete(lang="en")
               a.nav-link(href="#register") Registrate y recibe notificaciones
             li.nav-item
               a.nav-link(href="#chatbot") Chatbot
-    header.masthead
-      .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
-        .d-flex.justify-content-center
-          .text-center
-            h1.mx-auto.my-0.text-uppercase Direccion general de desarrollo economico, social y deportivo
-            h2.text-white-50.mx-auto.mt-2.mb-5 Enterate de todas nuestas actividades
-            a.btn.btn-primary(href="#festivals") Click aqui
+
+    header.masthead(style="margin-top: 80px")
+      .div(style="position: absolute; left: 50%")
+        video(autoplay muted loop style="position: relative; left: -50%;")
+          source(src="/videos/avionsito.mp4", type="video/mp4")
+        .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center(style="position: relative; left: -50%; margin-top: -175%")
+          .d-flex.justify-content-center
+            .text-center
+              h1.mx-auto.my-0.text-uppercase Direccion general de desarrollo economico, social y deportivo
+              h2.text-white-50.mx-auto.mt-2.mb-5 Enterate de todas nuestas actividades
+              a.btn.btn-primary(href="#festivals") Click aqui
+
     #carouselExample.carousel.slide
       .carousel-indicators
         button.active(type="button", data-bs-target="#carouselExample", data-bs-slide-to="0", aria-current="true", aria-label="Slide 1")
@@ -58,6 +63,7 @@ html.fontawesome-i2svg-active.fontawesome-i2svg-complete(lang="en")
       button.carousel-control-next(type="button", data-bs-target="#carouselExample", data-bs-slide="next")
         span.carousel-control-next-icon(aria-hidden="true")
         span.visually-hidden Next
+
     section#festivals.text-center.festival-section
       .container.px-4.px-lg-5
         .row.gx-4.gx-lg-5.justify-content-center
@@ -100,5 +106,6 @@ html.fontawesome-i2svg-active.fontawesome-i2svg-complete(lang="en")
           .col-lg-8
             h2.text-white.mb-4 Chatbot
             p.text-white-50 Chat disponible
+
     script(src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js", integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r", crossorigin="anonymous")
     script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js", integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+", crossorigin="anonymous")
